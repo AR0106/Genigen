@@ -155,6 +155,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Object.cpp" />
     <ClCompile Include="Source\Audio.cpp" />
     <ClCompile Include="Source\Shader.cpp" />
     <ClCompile Include="Source\IndexBuffer.cpp" />
@@ -172,6 +173,7 @@
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Object.h" />
     <ClInclude Include="Source\Audio.h" />
     <ClInclude Include="Source\Shader.h" />
     <ClInclude Include="Source\IndexBuffer.h" />

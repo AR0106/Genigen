@@ -10,6 +10,7 @@
 #include <sstream>
 
 /* Project Includes */
+#include "main.h"
 #include "Renderer.h"
 #include "VertexBuffer.h"
 #include "VertexBufferLayout.h"
@@ -25,7 +26,6 @@
 #include "glm/gtc/matrix_transform.hpp"
 #include "imgui/imgui.h"
 #include "imgui/imgui_impl_glfw_gl3.h"
-#include "main.h"
 
 int main(void)
 {
@@ -59,9 +59,10 @@ int main(void)
 	std::cout << glGetString(GL_VERSION) << std::endl;
 
 	{
-		//	 X-Pos    Y-Pos   UV-X   UV-Y
+		// Vertex Buffer Values
 		float xyCrossPoints[] =
 		{
+		//	  X-Pos   Y-Pos   UV-X   UV-Y
 			 -25.5f, -50.0f,  0.0f,  0.0f, // 0
 			  25.5f, -50.0f,  1.0f,  0.0f, // 1
 			  25.5f,  50.0f,  1.0f,  1.0f, // 2
