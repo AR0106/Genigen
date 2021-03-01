@@ -360,3 +360,5 @@ Genigen/Dependencies/GLFW
 Genigen/Source/Vendor/glm
 Genigen/Source/Vendor/imgui
 Genigen/Source/Vendor/stb
+Genigen/fmod.dll
+Genigen/fmodL.dll
